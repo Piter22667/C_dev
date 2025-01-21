@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-
-namespace api.Models
+namespace api.Dto
 {
-    public class Users
+
+    public class UsersDto
     {
 
         public int Id { get; set; }
@@ -14,8 +14,6 @@ namespace api.Models
         public string password { get; set; }
         public string name { get; set; }
         public string surname { get; set; }
-        public string lastName { get; set; }
-
+        public string? lastName { get; set; }
     }
 }
-
